@@ -13,6 +13,7 @@ function ProjectList({ projects }) {
           id={project.id}
           name={project.name}
           description={project.description}
+          technologies={project.technologies}
           />
         ))}
         </div>
